@@ -8,14 +8,15 @@
     "test": "mocha server/**/*.test.js",
     "watch-test": "nodemon --exec npm test"
   },
-  "engine":{
-    "node":"10.10.0"
+  "engine": {
+    "node": "10.10.0"
   },
   "author": "Alessandro Calvio",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "lodash": "^4.17.11",
     "mongodb": "^3.1.10",
     "mongoose": "^5.4.3"
   },
